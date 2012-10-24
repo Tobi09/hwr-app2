@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<title>HWR APP</title>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <link href="CSS/allgemeinerStyle.css" rel="stylesheet" type="text/css"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1" />
+    <meta name="apple-mobile-web-app-capable" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    
+    
+  	<link rel="stylesheet" href="jquery.mobile-1.1.1/jquery.mobile-1.1.1.min.css" />
+	<script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="jquery.mobile-1.1.1/jquery.mobile-1.1.1.min.js"></script>
+    
+    <!--  eigenes Javascript -->
+    <script type="text/javascript" src="Javascript/Functions.js" >
+    </script>
+</head>
+
+<header>
+<img src="Bilder/Menübutton.gif" name="menübutton" id="menübutton" onclick="einfliegen()">
+<h1>HWR APP</h1>
+</header>
+
+<body>
+<!-- Home bildschirm -->
+<div data-role="page" id="home">
+	<!--<div data-role="header" id="normalheader">
+	</div> -->
+ 
+	<div data-role="content" class="page">
+       	<div id="menu">
+   			<ul data-role="listview" data-inset="true" data-filter="true">
+                <li><a href="#nachrichten">Nachrichten</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#page4">Seite vier</a></li>
+			</ul>		
+		</div>
+        <p>
+      	  Das ist eine Test HTML 5 Seite zum entwicklen unsere App für unser Studienprojekt    
+        </p>
+ 		<p>
+            Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen Sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben. Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab, da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse. Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort. Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme wäre sie         
+    </p>      
+    </div>
+ 
+</div>
+
+<div data-role="page" id="nachrichten">
+
+   	<div data-role="content" class="page">
+    	<div id="menüliste">
+   			<ul data-role="listview" data-inset="true" data-filter="true">
+                <li><a href="#nachrichten">Nachrichten</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#page4">Seite vier</a></li>
+			</ul>		
+		</div>
+    	<p>nachrichten</p>
+    </div>
+
+</div>
+
+<div data-role="page" id="profil" class="page">
+
+	<div data-role="content" class="page">	
+    	<div id="menüliste">
+   			<ul data-role="listview" data-inset="true" data-filter="true">
+                <li><a href="#nachrichten">Nachrichten</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#page4">Seite vier</a></li>
+			</ul>		
+		</div>
+		<p>Inhalt</p>		
+	</div>
+    
+</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

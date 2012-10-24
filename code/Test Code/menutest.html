@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html>
+<head> 
+    <title>My Page</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+  <script type="text/javascript" src="Javascript/menü.js"></script>
+
+
+</head>
+<body class="body">
+
+<!-- Wrapper -->
+<div id="wrapper">
+  <!-- page1 -->
+  <div data-role="page" id="page1" data-theme="a">
+
+    <!-- Header -->
+    <div data-role="header" data-theme="a" data-tap-toggle="false" data-id="header" data-position="absolute">
+     <!-- <a type="button" class="menu" data-icon="home">Menu</a>-->
+     
+      <h1 style="white-space:normal">Page 1</h1>
+     <!-- <a href="mobilemain.do" rel="external" type="button" data-icon="home">Home</a>-->
+    </div>
+    <!-- /Header -->
+
+    <!-- Main Content -->
+    <div data-role="content" data-theme="g">
+      <div class="ui-body ui-body-b">
+        <p>This is a test app for the new menu. To open the menu tap the button up top OR swipe right.</p>
+        <p>To close the menu, click the button again OR swipe left.</p>
+      </div>
+      <label for="test">Mouse X coordinate</label>
+      <input type="text" id="test" value="0"></input>
+      <label for="test2">Mouse y coordinate</label>
+      <input type="text" id="test2" value="0"></input>
+      <label for="start">Mouse start X</label>
+      <input type="text" id="start" value="0"></input>
+    </div>
+    <!-- /Main Content -->
+
+  </div>
+  <!-- /page1 -->
+
+  <!-- Page 2 -->
+  <div data-role="page" id="page2" data-theme="a">
+
+    <!-- Header -->
+    <div data-role="header" data-theme="a" data-tap-toggle="false" data-id="header" data-position="absolute">
+      <a type="button" class="menu" data-icon="gear">Menu</a>
+      <h1 style="white-space:normal">Page 2</h1>
+      <a href="mobilemain.do" rel="external" type="button" data-icon="home">Home</a>
+    </div>
+    <!-- /Header -->
+
+    <!-- Main Content -->
+    <div data-role="content">
+      <p>Below is a list of items</p>
+      <ul data-role="listview" data-inset="true" class="log">
+        <li>Test Item 1</li>
+      </ul>
+    </div>
+    <!-- /Main Content -->
+
+  </div>
+  <!-- /Page 2 -->
+
+    <!-- Page 3 -->
+  <div data-role="page" id="page3" data-theme="a">
+
+    <!-- Header -->
+    <div data-role="header" data-theme="a" data-tap-toggle="false" data-id="header" data-position="absolute">
+      <a type="button" class="menu" data-icon="gear">Menu</a>
+      <h1 style="white-space:normal">Page 3</h1>
+      <a href="mobilemain.do" rel="external" type="button" data-icon="home">Home</a>
+    </div>
+    <!-- /Header -->
+
+    <!-- Main Content -->
+    <div data-role="content">
+      <div type="content" id="div1">
+        <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
+          <li data-role="list-divider">List 1</li>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </div>
+      <div type="content" id="div2" hidden >
+        <ul data-role="listview" data-inset="true" data-theme="b" data-divider-theme="b">
+          <li data-role="list-divider">List 2</li>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </div>
+      <div type="content" id="div3" hidden >
+        <ul data-role="listview" data-inset="true" data-theme="c" data-divider-theme="c">
+          <li data-role="list-divider">List 3</li>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </div>
+    </div>
+    <!-- /Main Content -->
+
+  </div>
+  <!-- /Page 3 -->
+
+  <!-- Menu -->
+  <div data-role="page" id="menu" data-theme="c">
+
+    <div data-role="header" data-theme="c">
+      <h1>Options</h1>
+    </div>
+
+    <div data-role="content" data-theme="c">
+      <ul data-role="listview" data-theme="c" data-divider-theme="c" data-inset="true">
+        <li data-role="list-divider">Pages</li>
+        <li><a href="#page1" data-transition="slide" data-direction="reverse">Freunde</a></li>
+        <li><a href="#page2" data-transition="slide">Nachrichten</a></li>
+        <li><a href="#page3" data-transition="slide">Optionen</a></li>
+      </ul>
+      <!-- Optionen der Page im Menü -->
+      <ul data-role="listview" data-theme="c" data-divider-theme="c" data-inset="true" class="pageOpts">
+
+      </ul>
+      <!-- /Optionen der Page im Menü -->
+    </div>
+
+  </div>
+  <!-- /Menu -->
+</div>
+<!-- /Wrapper -->
+
+</body>
+</html>

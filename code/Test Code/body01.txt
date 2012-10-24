@@ -1,0 +1,49 @@
+
+<div id="menüliste" data-role="content">
+		<div data-role="fieldcontain">
+	    <label for="textinput">Suchen:</label>
+	    <input type="text" name="textinput" id="textinput" value=""  />
+    	</div>
+		<ul data-role="listview">
+			<li><a href="#page2">Freunde</a></li>
+            <li><a href="#page3">Nachrichten</a></li>
+			<li><a href="#page4">Abmelden</a></li>
+		</ul>	
+        <div data-role="page" id="page1">
+    <div data-role="content" style="padding: 15px">
+        <a data-role="button" data-transition="pop" data-theme="c" href="fads"
+        data-icon="arrow-r" data-iconpos="right">
+            Test
+        </a>
+        <a data-role="button" data-transition="pop" data-theme="c" href="#fads"
+        data-icon="arrow-r" data-iconpos="right">
+            Test
+        </a>
+    </div>
+</div>	
+</div>
+
+<article>
+
+<div class="textblock">
+        <div data-role="fieldcontain">
+	      <fieldset data-role="controlgroup">
+	        <legend>OPTION</legend>
+	        <input type="radio" name="radio1" id="radio1_0" value="" />
+	        <label for="radio1_0">OPTION</label>
+	        <input type="radio" name="radio1" id="radio1_1" value="" />
+	        <label for="radio1_1">OPTION</label>
+	        <input type="radio" name="radio1" id="radio1_2" value="" />
+	        <label for="radio1_2">OPTION</label>
+          </fieldset>
+        </div>   
+      
+</div>
+    	<h1 id="app-name"> Herzlich Willkommen!</h1>
+        <p id=toggletest>Das ist eine Test HTML 5 Seite zum entwicklen unsere App für unser Studienprojekt</p>
+        <p> Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen Sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben. Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab, da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse. Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort. Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme wäre sie 
+        </p>
+
+    <h1 class="hwrapp"> Ein kommunikationsapp</h1>
+        <p> Diese Applikation soll Plattformunabhängig auf meheren Endgeräten laufen und dient zur kommunikation der Studenten</p>
+</article>
